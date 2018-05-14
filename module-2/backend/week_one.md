@@ -7,6 +7,7 @@ Note: When you're done, submit a PR.
 ### Week 1 Questions
 
 1. List the five common HTTP verbs and what the purpose is of each verb.
+
 ** Get: Sends a request to a server for information that can be read by the browser on the client device.
 ** Post: Sends a request to create information on a server.
 ** Put: Sends a request to update information on a server.
@@ -29,7 +30,7 @@ Note: When you're done, submit a PR.
     erb :index
   end
   ```
-
+  
 8. In the same code block, how would I pass a local variable `name` with a value of `Mr. Ed` to the view?
 9. What's the purpose of ERB?
 ** Translate ruby code into into HTML.
@@ -72,19 +73,19 @@ activities = {
   brunch: {cost: $35, supplies: ['mimosa flutes'],
   antiquing: {cost: $200, supplies: ['list of antique stores']
 }
-
 activities[:hiking][:supplies] = 'granola bar'
 ```
 How would I add 'granola bar' to things you should have when hiking?
+
 23. What are the 4 Principles of OOP? Give a one sentence explanation of each.
 ** Encapsulation: Separating responsibilities and hiding data from public methods.
 ** Abstraction: Knowing something at a high-level, not showing all of the internal parts required for some action.
 ** Inheritance: You can gain behavior from another piece of code without duplicating the code.
 ** Polymorphism: Methods can take in many arguments and behave accordingly.
 
-
 ### Self Assessment:
-Choose One:
+Choose One: (erase the others)
+
 * I was able to answer most questions independently, but utilized outside resources for a few
 
 
