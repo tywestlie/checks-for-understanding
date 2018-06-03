@@ -52,6 +52,12 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 13. Given the following array of hashes, how would I print an alphabetical list of holidays?
 ```ruby
 [{holiday: {name: "St Patrick's Day", supplies: ["Corned Beef and Cabbage"] }, {holiday: {name: "Halloween", supplies: ["Candy", "Costume"] }, {holiday: {name: "Hanukkah", supplies: ["Menorah"] } ]
+
+[
+ {holiday: {name: "St Patrick's Day", supplies: ["Corned Beef and Cabbage"]}},
+ {holiday: {name: "Halloween", supplies: ["Candy", "Costume"]}},
+ {holiday: {name: "Hanukkah", supplies: ["Menorah"]}}
+]
 ```  
 given.map do | holiday|
   holiday.values
